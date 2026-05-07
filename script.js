@@ -16,7 +16,7 @@ const translations = {
     'nav-contact':   'Contact',
 
     /* hero */
-    'hero-label': 'Strategic HR, L&D & People Operations Professional',
+    'hero-label': 'People Operations & Project Management | Strategic L&D',
     'hero-cta':   'View My Projects',
 
     /* about */
@@ -96,32 +96,32 @@ const translations = {
     'projects-note':    'Four end-to-end strategic projects — from academic research to practical HR, L&D, and People Operations solutions, built and measured for real organizational impact.',
 
     /* project 04 (displayed first) */
-    'p04-category': 'HR | Global Teams | People Operations',
-    'p04-title':    'Global Conflict Management',
+    'p04-category': 'PM | Global HR | People Operations',
+    'p04-title':    'Global Communication Infrastructure & Conflict Resolution',
     'p04-kpi1':     '-28% conflict resolution time',
     'p04-kpi2':     '+45% manager confidence',
     'p04-kpi3':     'CLEAR Model',
     'p04-value':    'Translating academic research into a practical managerial toolkit for distributed global teams.',
 
     /* project 01 (displayed second) */
-    'p01-category': 'L&D | AI Enablement | Change Management',
-    'p01-title':    'AI Enablement Program',
+    'p01-category': 'PM | AI Implementation | Change Management',
+    'p01-title':    'AI Implementation & Operational Adoption',
     'p01-kpi1':     '86% completion rate',
     'p01-kpi2':     'Confidence 2.4 → 4.1',
     'p01-kpi3':     '+68% weekly usage',
     'p01-value':    'Building AI confidence through structured enablement — turning AI from a threatening tool into a daily work method.',
 
     /* project 02 (displayed third) */
-    'p02-category': 'People Operations | Onboarding | HR',
-    'p02-title':    'CSM Onboarding Journey 30/60/90',
+    'p02-category': 'PM | People Operations | HR',
+    'p02-title':    'CSM Readiness & Time-to-Productivity Project',
     'p02-kpi1':     '91% completion rate',
     'p02-kpi2':     '-32% repeat questions',
     'p02-kpi3':     'Reduced ramp-up time',
     'p02-value':    'Structured onboarding journey reducing ramp-up time and improving employee retention from day one.',
 
     /* project 03 (displayed fourth) */
-    'p03-category': 'Change Management | L&D | People Operations',
-    'p03-title':    'Change Readiness & Learning Enablement',
+    'p03-category': 'PM | Transformation | Change Management',
+    'p03-title':    'Strategic Transformation Execution',
     'p03-kpi1':     'Clarity 2.9 → 4.2',
     'p03-kpi2':     'Confidence 3.0 → 4.3',
     'p03-kpi3':     '5-week program',
@@ -135,9 +135,20 @@ const translations = {
     'read-less':           'Collapse',
 
     /* primary action buttons */
-    'btn-project-story': 'View Full Project Story',
-    'btn-pm-docs':       'View Project Management Documentation',
+    'btn-project-story': 'Full Project Story',
+    'btn-pm-docs':       'Project Management Documentation & Data',
     'btn-view-portal':   'View Learning Portal',
+
+    /* pm docs description */
+    'pm-docs-desc': 'Task breakdown, roadmap, milestones, responsibilities, risks, execution tracking and data-based project management.',
+
+    /* pm roadmap */
+    'roadmap-label': 'The PM Roadmap',
+    'roadmap-step1': 'Diagnosis',
+    'roadmap-step2': 'Planning',
+    'roadmap-step3': 'Stakeholder Alignment',
+    'roadmap-step4': 'Build',
+    'roadmap-step5': 'Measurement',
 
     /* asset buttons */
     'btn-case-study':   'Case Study',
@@ -164,7 +175,7 @@ const translations = {
     'nav-contact':   'יצירת קשר',
 
     /* hero */
-    'hero-label': 'מקצוענית HR אסטרטגי, למידה ופיתוח ואנשים',
+    'hero-label': 'People Operations & Project Management | Strategic L&D',
     'hero-cta':   'צפו בפרויקטים שלי',
 
     /* about */
@@ -244,32 +255,32 @@ const translations = {
     'projects-note':    'ארבעה פרויקטים אסטרטגיים מקצה לקצה — ממחקר אקדמי לפתרונות HR, למידה ו-People Operations מעשיים, עם מדידת אימפקט ארגוני אמיתי.',
 
     /* project 04 (displayed first) */
-    'p04-category': 'HR | צוותים גלובליים | People Operations',
-    'p04-title':    'ניהול קונפליקטים בצוותים גלובליים',
+    'p04-category': 'PM | HR גלובלי | People Operations',
+    'p04-title':    'תשתית תקשורת גלובלית ופתרון קונפליקטים',
     'p04-kpi1':     'צמצום 28% בזמן פתרון',
     'p04-kpi2':     'עלייה 45% בביטחון מנהלים',
     'p04-kpi3':     'מודל CLEAR',
     'p04-value':    'תרגום מחקר אקדמי לכלים ניהוליים פרקטיים לצוותים מבוזרים גלובלית.',
 
     /* project 01 (displayed second) */
-    'p01-category': 'למידה ופיתוח | הטמעת AI | ניהול שינוי',
-    'p01-title':    'תוכנית העצמת AI ארגונית',
+    'p01-category': 'PM | הטמעת AI | ניהול שינוי',
+    'p01-title':    'ניהול הטמעה ואימוץ תפעולי של AI',
     'p01-kpi1':     '86% השלמה',
     'p01-kpi2':     'ביטחון 2.4 → 4.1',
     'p01-kpi3':     'צמיחה 68% בשימוש שבועי',
     'p01-value':    'בניית תשתית AI Enablement שהופכת AI מכלי מאיים לשיטת עבודה יומיומית.',
 
     /* project 02 (displayed third) */
-    'p02-category': 'People Operations | אונבורדינג | HR',
-    'p02-title':    'מסע קליטת עובדים CSM 30/60/90',
+    'p02-category': 'PM | People Operations | HR',
+    'p02-title':    'פרויקט מוכנות עובדים וקיצור זמן הכשרה CSM',
     'p02-kpi1':     '91% השלמה',
     'p02-kpi2':     'צמצום 32% שאלות חוזרות',
     'p02-kpi3':     'קיצור זמן Ramp-up',
     'p02-value':    'מסלול קליטה מובנה שמקצר זמן Ramp-up ומשפר שימור עובדים מהיום הראשון.',
 
     /* project 03 (displayed fourth) */
-    'p03-category': 'ניהול שינוי | למידה ופיתוח | People Operations',
-    'p03-title':    'מוכנות לשינוי והעצמת למידה',
+    'p03-category': 'PM | טרנספורמציה | ניהול שינוי',
+    'p03-title':    'הוצאה לפועל של טרנספורמציה אסטרטגית',
     'p03-kpi1':     'בהירות 2.9 → 4.2',
     'p03-kpi2':     'ביטחון 3.0 → 4.3',
     'p03-kpi3':     'תוכנית 5 שבועות',
@@ -283,9 +294,20 @@ const translations = {
     'read-less':           'סגרי',
 
     /* primary action buttons */
-    'btn-project-story': 'לצפייה במצגת התהליך המלאה',
-    'btn-pm-docs':       'לצפייה בתיעוד ניהול הפרויקט המלא',
+    'btn-project-story': 'סיפור הפרויקט המלא',
+    'btn-pm-docs':       'תיעוד ניהול פרויקט ודאטה',
     'btn-view-portal':   'לצפייה בפורטל הלמידה',
+
+    /* pm docs description */
+    'pm-docs-desc': 'פירוק למשימות, Roadmap, אבני דרך, תחומי אחריות, סיכונים, מעקב ביצוע וניהול פרויקט מבוסס דאטה.',
+
+    /* pm roadmap */
+    'roadmap-label': 'ציר הזמן הניהולי',
+    'roadmap-step1': 'אבחון',
+    'roadmap-step2': 'תכנון',
+    'roadmap-step3': 'גיוס שותפים',
+    'roadmap-step4': 'בנייה',
+    'roadmap-step5': 'מדידה',
 
     /* asset buttons */
     'btn-case-study':   'תיאור מקרה',
