@@ -137,7 +137,7 @@ const translations = {
     /* primary action buttons */
     'btn-project-story': 'Full Project Story',
     'btn-pm-docs':       'Project Management Documentation & Data',
-    'btn-view-portal':   'View Learning Portal',
+    'btn-view-portal':   'View Portal Mockup',
 
     /* pm docs description */
     'pm-docs-desc': 'Task breakdown, roadmap, milestones, responsibilities, risks, execution tracking and data-based project management.',
@@ -296,7 +296,7 @@ const translations = {
     /* primary action buttons */
     'btn-project-story': 'סיפור הפרויקט המלא',
     'btn-pm-docs':       'תיעוד ניהול פרויקט ודאטה',
-    'btn-view-portal':   'לצפייה בפורטל הלמידה',
+    'btn-view-portal':   'צפייה במוקאפ הפורטל',
 
     /* pm docs description */
     'pm-docs-desc': 'פירוק למשימות, Roadmap, אבני דרך, תחומי אחריות, סיכונים, מעקב ביצוע וניהול פרויקט מבוסס דאטה.',
