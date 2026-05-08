@@ -97,7 +97,7 @@ const translations = {
 
     /* project 04 (displayed first) */
     'p04-category': 'PM | Global HR | People Operations',
-    'p04-title':    'Global Communication Infrastructure & Conflict Resolution',
+    'p04-title':    'Global Communication Infrastructure & Enablement',
     'p04-kpi1':     '-28% conflict resolution time',
     'p04-kpi2':     '+45% manager confidence',
     'p04-kpi3':     'CLEAR Model',
@@ -121,7 +121,7 @@ const translations = {
 
     /* project 03 (displayed fourth) */
     'p03-category': 'PM | Transformation | Change Management',
-    'p03-title':    'Strategic Transformation Execution',
+    'p03-title':    'Strategic Transformation Enablement & Execution',
     'p03-kpi1':     'Clarity 2.9 → 4.2',
     'p03-kpi2':     'Confidence 3.0 → 4.3',
     'p03-kpi3':     '5-week program',
@@ -136,7 +136,7 @@ const translations = {
 
     /* primary action buttons */
     'btn-project-story': 'Full Project Story',
-    'btn-pm-docs':       'Project Management Documentation & Data',
+    'btn-pm-docs':       'Project Management & Operations Documentation',
     'btn-view-portal':   'View Portal Mockup',
 
     /* pm docs description */
@@ -295,7 +295,7 @@ const translations = {
 
     /* primary action buttons */
     'btn-project-story': 'סיפור הפרויקט המלא',
-    'btn-pm-docs':       'תיעוד ניהול פרויקט ודאטה',
+    'btn-pm-docs':       'תיעוד ניהול פרויקט ואופרציה',
     'btn-view-portal':   'צפייה במוקאפ הפורטל',
 
     /* pm docs description */
