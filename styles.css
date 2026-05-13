@@ -19,6 +19,8 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 [lang="he"] body,
@@ -215,8 +217,8 @@ a  { text-decoration: none; }
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 3px solid rgba(255,255,255,0.15);
-  box-shadow: 0 8px 24px rgba(37,99,235,0.4);
+  border: 3px solid rgba(255,255,255,0.25);
+  box-shadow: 0 0 0 5px rgba(37,99,235,0.18), 0 8px 28px rgba(37,99,235,0.45);
 }
 .hero-avatar-role {
   color: rgba(255,255,255,0.45);
@@ -266,6 +268,7 @@ a  { text-decoration: none; }
   border-radius: var(--radius-pill);
   transition: transform 0.2s, box-shadow 0.2s;
   letter-spacing: 0.01em;
+  box-shadow: 0 6px 20px rgba(37,99,235,0.35);
 }
 .hero-cta:hover {
   transform: translateY(-2px);
@@ -291,7 +294,7 @@ a  { text-decoration: none; }
   margin: 0 auto;
   padding: 0 28px;
 }
-.section { padding: 88px 0; }
+.section { padding: 96px 0; }
 .section-light { background: var(--light-gray); }
 
 .section-title {
@@ -611,7 +614,7 @@ a  { text-decoration: none; }
 .project-card {
   background: var(--white);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 24px rgba(23,33,63,0.10), 0 1px 4px rgba(23,33,63,0.06);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -624,52 +627,23 @@ a  { text-decoration: none; }
 }
 
 /* ============================================
-   BROWSER MOCKUP FRAME
+   CARD PORTAL VISUAL (clean container, no fake frame)
    ============================================ */
-.card-mockup-frame {
-  background: #E4E8EE;
+.card-portal-visual {
+  background: #fff;
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   overflow: hidden;
-  border-bottom: 1px solid rgba(23,33,63,0.08);
-}
-.browser-bar {
-  background: #D1D5DB;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  padding: 0 12px;
-  gap: 6px;
-}
-.browser-dot {
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-.dot-red    { background: #FF5F57; }
-.dot-yellow { background: #FFBD2E; }
-.dot-green  { background: #28C840; }
-.browser-url-bar {
-  margin-left: 8px;
-  background: rgba(255,255,255,0.6);
-  border-radius: var(--radius-pill);
-  padding: 3px 12px;
-  font-size: 10.5px;
-  color: #6B7280;
-  font-weight: 500;
-  flex: 1;
-  max-width: 200px;
-}
-.browser-content {
-  background: #F9FAFB;
-  padding: 0;
+  border-bottom: 1px solid rgba(23,33,63,0.06);
+  padding: 20px;
   line-height: 0;
 }
-.browser-content img {
-  width: 100%;
-  max-height: 240px;
-  object-fit: contain;
-  background: #fff;
+.card-portal-visual img {
   display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
 }
 
 /* ============================================
@@ -736,6 +710,51 @@ a  { text-decoration: none; }
 }
 
 /* ============================================
+   4-STEP METHODOLOGY (CARD VISIBLE)
+   ============================================ */
+.methodology-steps {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+.mstep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.mstep-num {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mstep-label {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.mstep-sep {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-bottom: 14px;
+}
+
+/* ============================================
    MANAGEMENT CASE STUDY SNAPSHOT
    ============================================ */
 .snapshot-block {
@@ -744,6 +763,7 @@ a  { text-decoration: none; }
   border-radius: var(--radius-md);
   overflow: hidden;
   border: 1px solid rgba(23,33,63,0.06);
+  box-shadow: var(--shadow-sm);
 }
 .snapshot-label {
   font-size: 10.5px;
@@ -965,6 +985,7 @@ a  { text-decoration: none; }
   transition: opacity 0.18s, transform 0.18s;
   cursor: pointer;
   white-space: nowrap;
+  min-height: 44px;
 }
 .file-btn:hover {
   opacity: 0.82;
@@ -1059,6 +1080,29 @@ a  { text-decoration: none; }
   font-size: 14px;
   font-weight: 700;
   flex-shrink: 0;
+}
+
+/* Mockup images inside expand section */
+.mockup-visuals {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px 0 8px;
+}
+.mockup-visual-block {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(23, 33, 63, 0.08);
+  padding: 16px;
+  overflow: hidden;
+}
+.mockup-img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 6px;
 }
 
 /* PM docs description */
@@ -1287,6 +1331,13 @@ a  { text-decoration: none; }
   .card-footer { padding: 12px 16px 18px; gap: 8px; }
   .card-title  { font-size: 16px; }
   .file-btn    { font-size: 11px; padding: 6px 12px; }
+
+  /* 4-step methodology — 2×2 wrap on small screens */
+  .methodology-steps { flex-wrap: wrap; gap: 10px 6px; }
+  .mstep-sep { display: none; }
+
+  /* Section padding */
+  .section { padding: 48px 0; }
 
   /* Section title */
   .section-title { font-size: 22px; margin-bottom: 26px; }
