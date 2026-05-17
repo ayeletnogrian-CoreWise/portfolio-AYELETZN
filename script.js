@@ -16,7 +16,7 @@ const translations = {
     'nav-contact':   'Contact',
 
     /* hero */
-    'hero-label': 'People Operations & Project Management | Strategic L&D',
+    'hero-label': 'Learning, Knowledge & People Operations Projects',
     'hero-cta':   'View My Projects',
 
     /* about */
@@ -71,29 +71,32 @@ const translations = {
     'skill-pm':       'Project Management',
     'skill-rai':      'Responsible AI',
     'skill-prompt':   'Prompt Design',
+    'skill-adopt':    'Adoption Tracking',
+    'skill-lim':      'Learning Impact Measurement',
+    'skill-excel':    'Excel Reporting',
 
     /* tools */
     'section-tools':  'Tools & Platforms',
     'tool-ppt-name':  'PowerPoint',
-    'tool-ppt-desc':  'Facilitator decks, training presentations, learning materials, and manager enablement slides.',
+    'tool-ppt-desc':  'Training decks, facilitator guides, manager enablement materials and executive presentations.',
     'tool-cv-name':   'Canva',
-    'tool-cv-desc':   'Case study design, portfolio visuals, visual storytelling, learning assets, and branded templates.',
+    'tool-cv-desc':   'Case studies, visual guides, learning assets and presentation-ready materials.',
     'tool-xl-name':   'Excel',
-    'tool-xl-desc':   'KPI dashboards, learning impact measurement, adoption tracking, data summaries, and reporting.',
+    'tool-xl-desc':   'KPI dashboards, adoption tracking, readiness measurement and operational reporting.',
     'tool-fg-name':   'Figma',
-    'tool-fg-desc':   'Learning portal mockups, LMS screens, dashboard interfaces, and user experience design.',
+    'tool-fg-desc':   'Learning portals, LMS screens, knowledge hubs and dashboard interface mockups.',
     'tool-nt-name':   'Notion',
-    'tool-nt-desc':   'Project management boards, task tracking, timelines, milestones, risk logs, and structured documentation.',
+    'tool-nt-desc':   'Project documentation, onboarding hubs, knowledge bases, roadmaps and task tracking.',
     'tool-vs-name':   'VS Code',
-    'tool-vs-desc':   'Portfolio website development, digital knowledge portals, and enablement architecture.',
+    'tool-vs-desc':   'Portfolio website, digital portals, structured documentation and web-based project presentation.',
     'tool-ai-name':   'AI Tools',
-    'tool-ai-desc':   'Prompt design, AI enablement materials, content structuring, workflow templates, and adoption support.',
+    'tool-ai-desc':   'Prompt design, content structuring, enablement materials and workflow support.',
     'tool-gh-name':   'GitHub',
-    'tool-gh-desc':   'Portfolio website, project documentation, file organization, and project presentation.',
+    'tool-gh-desc':   'Portfolio website, digital portals, structured documentation and project presentation.',
 
     /* projects section */
     'section-projects': 'Portfolio Projects',
-    'projects-note':    'Four end-to-end strategic projects — from academic research to practical HR, L&D, and People Operations solutions, built and measured for real organizational impact.',
+    'projects-note':    'Four end-to-end concept portfolio projects demonstrating how academic research, organizational diagnosis and practical execution can become usable HR, L&D, Knowledge Management and People Operations solutions.',
 
     /* project 04 (displayed first) */
     'p04-category': 'PM | Global HR | People Operations',
@@ -101,7 +104,7 @@ const translations = {
     'p04-kpi1':     '-28% conflict resolution time',
     'p04-kpi2':     '+45% manager confidence',
     'p04-kpi3':     'CLEAR Model',
-    'p04-value':    'Translating academic research into a practical managerial toolkit for distributed global teams.',
+    'p04-value':    'Reduces friction in global teams by giving managers a clear communication framework, team agreements and measurement tools.',
 
     /* project 01 (displayed second) */
     'p01-category': 'PM | AI Implementation | Change Management',
@@ -109,7 +112,7 @@ const translations = {
     'p01-kpi1':     '86% completion rate',
     'p01-kpi2':     'Confidence 2.4 → 4.1',
     'p01-kpi3':     '+68% weekly usage',
-    'p01-value':    'Building AI confidence through structured enablement — turning AI from a threatening tool into a daily work method.',
+    'p01-value':    'Helps organizations move from scattered AI curiosity to structured, responsible and measurable adoption.',
 
     /* project 02 (displayed third) */
     'p02-category': 'PM | People Operations | HR',
@@ -117,7 +120,7 @@ const translations = {
     'p02-kpi1':     '91% completion rate',
     'p02-kpi2':     '-32% repeat questions',
     'p02-kpi3':     'Reduced ramp-up time',
-    'p02-value':    'Structured onboarding journey reducing ramp-up time and improving employee retention from day one.',
+    'p02-value':    'Shortens onboarding ramp-up by creating one structured source of truth for new CSMs and their managers.',
 
     /* project 03 (displayed fourth) */
     'p03-category': 'PM | Transformation | Change Management',
@@ -125,7 +128,7 @@ const translations = {
     'p03-kpi1':     'Clarity 2.9 → 4.2',
     'p03-kpi2':     'Confidence 3.0 → 4.3',
     'p03-kpi3':     '5-week program',
-    'p03-value':    '5-week change enablement program bridging executive strategy and frontline adoption.',
+    'p03-value':    'Bridges the gap between executive strategy and employee behavior through role-based enablement and manager tools.',
 
     /* shared card labels */
     'card-academic-label': 'Conceptual Case Study | M.A.-Based Project',
@@ -141,6 +144,12 @@ const translations = {
 
     /* pm docs description */
     'pm-docs-desc': 'Task breakdown, roadmap, milestones, responsibilities, risks, execution tracking and data-based project management.',
+
+    /* 4-step methodology (visible in card) */
+    'mstep1': 'Diagnosis',
+    'mstep2': 'Strategy',
+    'mstep3': 'Execution',
+    'mstep4': 'Impact',
 
     /* pm roadmap */
     'roadmap-label': 'The PM Roadmap',
@@ -161,7 +170,7 @@ const translations = {
     'contact-linkedin-label': 'LinkedIn Profile',
 
     /* footer */
-    'footer-text': '© 2026 Ayelet Nogrian · Strategic HR, L&D & People Operations',
+    'footer-text': '© 2026 Ayelet Nogrian · Learning, Knowledge & People Operations',
   },
 
   /* ==================== HEBREW ==================== */
@@ -175,7 +184,7 @@ const translations = {
     'nav-contact':   'יצירת קשר',
 
     /* hero */
-    'hero-label': 'People Operations & Project Management | Strategic L&D',
+    'hero-label': 'פרויקטי למידה, ידע ו-People Operations',
     'hero-cta':   'צפו בפרויקטים שלי',
 
     /* about */
@@ -230,29 +239,32 @@ const translations = {
     'skill-pm':       'ניהול פרויקטים',
     'skill-rai':      'שימוש אחראי ב־AI',
     'skill-prompt':   'עיצוב פרומפטים',
+    'skill-adopt':    'מעקב אימוץ',
+    'skill-lim':      'מדידת אימפקט למידה',
+    'skill-excel':    'דיווח ב-Excel',
 
     /* tools */
     'section-tools':  'כלים ופלטפורמות',
     'tool-ppt-name':  'PowerPoint',
-    'tool-ppt-desc':  'בניית מצגות הדרכה, Facilitator Decks, חומרי למידה ומצגות לפיתוח מנהלים.',
+    'tool-ppt-desc':  'עיצוב מצגות הדרכה, מדריכי מנחים, חומרי פיתוח מנהלים ומצגות לצד הנהלה.',
     'tool-cv-name':   'Canva',
-    'tool-cv-desc':   'עיצוב Case Studies, נכסי למידה, תבניות ממותגות וסטוריטלינג ויזואלי.',
+    'tool-cv-desc':   'עיצוב Case Studies, מדריכים ויזואליים, נכסי למידה וחומרים מוכנים להצגה.',
     'tool-xl-name':   'Excel',
-    'tool-xl-desc':   'בניית דשבורדים, מדידת KPI, מעקב אימוץ, ניתוח נתונים ודוחות למידה.',
+    'tool-xl-desc':   'דשבורדי KPI, מעקב אימוץ, מדידת מוכנות ודיווח תפעולי.',
     'tool-fg-name':   'Figma',
-    'tool-fg-desc':   'עיצוב מוקאפ לפורטלי למידה, מסכי LMS, ממשקי דשבורד וחוויית משתמש.',
+    'tool-fg-desc':   'פורטלי למידה, מסכי LMS, מוקאפ לרכזי ידע וממשקי דשבורד.',
     'tool-nt-name':   'Notion',
-    'tool-nt-desc':   'לוחות ניהול פרויקטים, מעקב משימות, לוחות זמנים, אבני דרך, יומן סיכונים ותיעוד מובנה.',
+    'tool-nt-desc':   'תיעוד פרויקטים, רכזי קליטה, בסיסי ידע, Roadmaps ומעקב משימות.',
     'tool-vs-name':   'VS Code',
-    'tool-vs-desc':   'פיתוח אתר תיק העבודות, פורטלי ידע דיגיטליים ותשתית Enablement.',
+    'tool-vs-desc':   'אתר תיק עבודות, פורטלים דיגיטליים, תיעוד מובנה והצגת פרויקטים מבוססת ווב.',
     'tool-ai-name':   'כלי AI',
-    'tool-ai-desc':   'עיצוב פרומפטים, בניית חומרי הטמעת AI, ארגון תוכן, תבניות עבודה ותהליכי אימוץ.',
+    'tool-ai-desc':   'עיצוב פרומפטים, ארגון תוכן, חומרי Enablement ותמיכה בתהליכי עבודה.',
     'tool-gh-name':   'GitHub',
-    'tool-gh-desc':   'הצגת תיק עבודות, תיעוד פרויקטים, ארגון קבצים ובניית אתר פורטפוליו.',
+    'tool-gh-desc':   'אתר תיק עבודות, פורטלים דיגיטליים, תיעוד מובנה והצגת פרויקטים.',
 
     /* projects section */
     'section-projects': 'פרויקטים',
-    'projects-note':    'ארבעה פרויקטים אסטרטגיים מקצה לקצה — ממחקר אקדמי לפתרונות HR, למידה ו-People Operations מעשיים, עם מדידת אימפקט ארגוני אמיתי.',
+    'projects-note':    'ארבעה פרויקטי קונספט מקצה לקצה המדגימים כיצד מחקר אקדמי, אבחון ארגוני וביצוע פרקטי יכולים להפוך לפתרונות שימושיים בעולמות HR, L&D, ניהול ידע ו-People Operations.',
 
     /* project 04 (displayed first) */
     'p04-category': 'PM | HR גלובלי | People Operations',
@@ -260,7 +272,7 @@ const translations = {
     'p04-kpi1':     'צמצום 28% בזמן פתרון',
     'p04-kpi2':     'עלייה 45% בביטחון מנהלים',
     'p04-kpi3':     'מודל CLEAR',
-    'p04-value':    'תרגום מחקר אקדמי לכלים ניהוליים פרקטיים לצוותים מבוזרים גלובלית.',
+    'p04-value':    'מצמצם חיכוך בצוותים גלובליים באמצעות מסגרת תקשורת ברורה, הסכמי עבודה צוותיים וכלי מדידה למנהלים.',
 
     /* project 01 (displayed second) */
     'p01-category': 'PM | הטמעת AI | ניהול שינוי',
@@ -268,7 +280,7 @@ const translations = {
     'p01-kpi1':     '86% השלמה',
     'p01-kpi2':     'ביטחון 2.4 → 4.1',
     'p01-kpi3':     'צמיחה 68% בשימוש שבועי',
-    'p01-value':    'בניית תשתית AI Enablement שהופכת AI מכלי מאיים לשיטת עבודה יומיומית.',
+    'p01-value':    'מסייע לארגונים לעבור מסקרנות מפוזרת סביב AI לאימוץ מובנה, אחראי ומדיד.',
 
     /* project 02 (displayed third) */
     'p02-category': 'PM | People Operations | HR',
@@ -276,7 +288,7 @@ const translations = {
     'p02-kpi1':     '91% השלמה',
     'p02-kpi2':     'צמצום 32% שאלות חוזרות',
     'p02-kpi3':     'קיצור זמן Ramp-up',
-    'p02-value':    'מסלול קליטה מובנה שמקצר זמן Ramp-up ומשפר שימור עובדים מהיום הראשון.',
+    'p02-value':    'מקצר את זמן הקליטה באמצעות מקור אמת אחד וברור לעובדי CSM חדשים ולמנהלים שלהם.',
 
     /* project 03 (displayed fourth) */
     'p03-category': 'PM | טרנספורמציה | ניהול שינוי',
@@ -284,7 +296,7 @@ const translations = {
     'p03-kpi1':     'בהירות 2.9 → 4.2',
     'p03-kpi2':     'ביטחון 3.0 → 4.3',
     'p03-kpi3':     'תוכנית 5 שבועות',
-    'p03-value':    'תוכנית 5 שבועות לגישור בין אסטרטגיה ניהולית לאימוץ בשטח.',
+    'p03-value':    'מגשר בין אסטרטגיית הנהלה לבין שינוי התנהגותי בשטח באמצעות Enablement לפי תפקידים וכלים למנהלים.',
 
     /* shared card labels */
     'card-academic-label': 'מקרה בוחן קונספטואלי | מבוסס מחקר אקדמי במסגרת M.A',
@@ -300,6 +312,12 @@ const translations = {
 
     /* pm docs description */
     'pm-docs-desc': 'פירוק למשימות, Roadmap, אבני דרך, תחומי אחריות, סיכונים, מעקב ביצוע וניהול פרויקט מבוסס דאטה.',
+
+    /* 4-step methodology (visible in card) */
+    'mstep1': 'אבחון',
+    'mstep2': 'אסטרטגיה',
+    'mstep3': 'ביצוע',
+    'mstep4': 'אימפקט',
 
     /* pm roadmap */
     'roadmap-label': 'ציר הזמן הניהולי',
@@ -320,7 +338,7 @@ const translations = {
     'contact-linkedin-label': 'פרופיל לינקדאין',
 
     /* footer */
-    'footer-text': '© 2026 איילת נוגריאן · HR אסטרטגי, למידה ופיתוח ואנשים',
+    'footer-text': '© 2026 איילת נוגריאן · למידה, ידע ו-People Operations',
   }
 };
 

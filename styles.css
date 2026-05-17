@@ -643,7 +643,7 @@ a  { text-decoration: none; }
 }
 
 /* ============================================
-   PROJECT CARDS â€” MAIN GRID
+   PROJECT CARDS — MAIN GRID
    ============================================ */
 .projects-grid {
   display: grid;
@@ -932,7 +932,7 @@ a  { text-decoration: none; }
   position: relative;
 }
 .tech-list li::before {
-  content: 'â€”';
+  content: '—';
   position: absolute;
   left: 0;
   color: var(--accent);
