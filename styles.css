@@ -14,8 +14,8 @@ html {
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: #1F2937;
-  background: #FFFFFF;
+  color: #0F172A;
+  background: #F8FAFC;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -38,6 +38,7 @@ a  { text-decoration: none; }
   --navy:       #17213F;
   --accent:     #2563EB;
   --accent-lt:  #DBEAFE;
+  --accent-2:   #0D9488;
   --teal:       #0F766E;
   --teal-lt:    #CCFBF1;
   --purple:     #A69BE8;
@@ -47,8 +48,8 @@ a  { text-decoration: none; }
   --peach:      #FDECC8;
   --light-gray: #F6F7FB;
   --mid-gray:   #E5E7EB;
-  --dark-text:  #1F2937;
-  --body-text:  #374151;
+  --dark-text:  #0F172A;
+  --body-text:  #334155;
   --muted-text: #6B7280;
   --white:      #FFFFFF;
 
@@ -260,17 +261,18 @@ a  { text-decoration: none; }
 
 .hero-cta {
   display: inline-block;
-  background: var(--accent);
+  background: #2563EB;
   color: #fff;
   font-size: 15px;
   font-weight: 700;
   padding: 14px 38px;
-  border-radius: var(--radius-pill);
-  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 6px;
+  transition: background 0.2s ease, transform 0.2s, box-shadow 0.2s;
   letter-spacing: 0.01em;
   box-shadow: 0 6px 20px rgba(37,99,235,0.35);
 }
 .hero-cta:hover {
+  background: #1D4ED8;
   transform: translateY(-2px);
   box-shadow: 0 10px 28px rgba(37,99,235,0.45);
 }
@@ -552,6 +554,44 @@ a  { text-decoration: none; }
   border-color: var(--accent);
   background: var(--accent-lt);
 }
+.skills-grouped {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.skill-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.skill-group-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--navy);
+  opacity: 0.45;
+  margin: 0;
+}
+
+/* ============================================
+   PORTFOLIO DISCLAIMER
+   ============================================ */
+.portfolio-disclaimer {
+  background: rgba(23, 33, 63, 0.03);
+  border-left: 3px solid rgba(37, 99, 235, 0.25);
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 28px;
+  font-size: 13px;
+  color: var(--muted-text);
+  line-height: 1.6;
+}
+.portfolio-disclaimer p { margin: 0; }
+[dir="rtl"] .portfolio-disclaimer {
+  border-left: none;
+  border-right: 3px solid rgba(37, 99, 235, 0.25);
+}
 
 /* ============================================
    TOOLS
@@ -603,35 +643,65 @@ a  { text-decoration: none; }
 }
 
 /* ============================================
-   PROJECT CARDS — MAIN GRID
+   PROJECT CARDS â€” MAIN GRID
    ============================================ */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+  align-items: stretch;
 }
 
 .project-card {
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  box-shadow: 0 4px 24px rgba(23,33,63,0.10), 0 1px 4px rgba(23,33,63,0.06);
+  background: #FFFFFF;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.05),
+              0 2px 4px -2px rgba(15, 23, 42, 0.05);
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  position: relative;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  border: 1px solid rgba(23, 33, 63, 0.05);
 }
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 12px 24px -8px rgba(15, 23, 42, 0.14);
+}
+
+/* Per-project classes: white only, no strips */
+.project-lavender,
+.project-blue,
+.project-sage,
+.project-peach,
+.project-sand {
+  background: #FFFFFF;
+  background-image: none;
+  border-top: none;
+}
+
+/* Project-type label */
+.project-type-label {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 8px;
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid rgba(37, 99, 235, 0.12);
 }
 
 /* ============================================
-   CARD PORTAL VISUAL (clean container, no fake frame)
+   CARD PORTAL VISUAL
    ============================================ */
 .card-portal-visual {
   background: #fff;
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  border-radius: 16px 16px 0 0;
   overflow: hidden;
   border-bottom: 1px solid rgba(23,33,63,0.06);
   padding: 20px;
@@ -693,13 +763,13 @@ a  { text-decoration: none; }
   margin-bottom: 14px;
 }
 .kpi-chip {
-  background: var(--accent-lt);
-  color: var(--accent);
+  background: #EFF6FF;
+  color: #2563EB;
   font-size: 11.5px;
   font-weight: 700;
   padding: 4px 12px;
-  border-radius: var(--radius-pill);
-  border: 1px solid rgba(37,99,235,0.15);
+  border-radius: 9999px;
+  border: 1px solid rgba(37, 99, 235, 0.12);
 }
 
 .card-value {
@@ -710,7 +780,7 @@ a  { text-decoration: none; }
 }
 
 /* ============================================
-   4-STEP METHODOLOGY (CARD VISIBLE)
+   4-STEP METHODOLOGY
    ============================================ */
 .methodology-steps {
   display: flex;
@@ -862,7 +932,7 @@ a  { text-decoration: none; }
   position: relative;
 }
 .tech-list li::before {
-  content: '—';
+  content: 'â€”';
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -939,9 +1009,7 @@ a  { text-decoration: none; }
 .btn-collapse-text { display: none; }
 .read-more-btn.is-open .btn-expand-text   { display: none; }
 .read-more-btn.is-open .btn-collapse-text { display: inline; }
-.read-more-btn.is-open .expand-icon {
-  transform: rotate(180deg);
-}
+.read-more-btn.is-open .expand-icon { transform: rotate(180deg); }
 .expand-icon {
   transition: transform 0.3s ease;
   flex-shrink: 0;
@@ -993,24 +1061,15 @@ a  { text-decoration: none; }
 }
 
 /* Primary action buttons */
-.btn-story {
-  background: var(--navy);
-  color: #fff;
-}
-.btn-pm-docs {
-  background: var(--teal);
-  color: #fff;
-}
-.btn-portal {
-  background: var(--accent);
-  color: #fff;
-}
+.btn-story   { background: var(--navy);   color: #fff; }
+.btn-pm-docs { background: var(--teal);   color: #fff; }
+.btn-portal  { background: var(--accent); color: #fff; }
 
 /* Secondary asset buttons */
 .btn-pdf  { background: var(--lavender); color: #5B52A3; }
 .btn-pptx { background: var(--soft-blue); color: #2563EB; }
-.btn-xlsx { background: var(--mint); color: #059669; }
-.btn-docx { background: var(--peach); color: #B45309; }
+.btn-xlsx { background: var(--mint);     color: #059669; }
+.btn-docx { background: var(--peach);    color: #B45309; }
 
 /* ============================================
    PREVIEW STRIP (thumbnails)
@@ -1215,12 +1274,10 @@ a  { text-decoration: none; }
 }
 
 @media (max-width: 760px) {
-  /* Sections */
   .section        { padding: 56px 0; }
   .section-title  { font-size: 24px; margin-bottom: 32px; }
   .section-intro  { font-size: 14px; }
 
-  /* Navigation */
   .navbar { position: relative; }
   .nav-toggle { display: flex; }
   .nav-links {
@@ -1236,11 +1293,9 @@ a  { text-decoration: none; }
   }
   .nav-links.open { display: flex; }
   .nav-links li a { display: block; padding: 12px 28px; font-size: 15px; }
-  /* RTL: override higher-specificity global rule so dropdown stays vertical */
   [dir="rtl"] .nav-links     { flex-direction: column; }
   [dir="rtl"] .nav-links li a { text-align: right; padding: 12px 28px; }
 
-  /* Hero */
   .hero        { padding: 80px 24px 60px; min-height: auto; }
   .hero-label  {
     font-size: 10.5px;
@@ -1255,35 +1310,28 @@ a  { text-decoration: none; }
   .hero-cta          { font-size: 14px; padding: 13px 32px; }
   .hero-avatar-role  { text-align: center; }
   .hero-label        { max-width: 100%; }
-  /* RTL: center avatar on mobile instead of left-aligning it */
   [dir="rtl"] .hero-avatar { align-items: center; }
 
-  /* About */
   .about-grid  { grid-template-columns: 1fr; gap: 32px; }
   .about-stats { flex-direction: row; gap: 10px; flex-wrap: wrap; }
   .stat-item   { flex: 1; min-width: 90px; }
 
-  /* Education / Honors / Tools */
   .education-grid       { grid-template-columns: 1fr; }
   .honors-grid          { grid-template-columns: 1fr; }
   .tools-grid           { grid-template-columns: repeat(2, 1fr); }
   .builder-tools-visual { grid-template-columns: repeat(3, 1fr); }
 
-  /* Projects */
   .projects-grid { grid-template-columns: 1fr; }
   .card-body     { padding: 20px 20px 14px; }
   .card-title    { font-size: 17px; }
   .card-footer   { padding: 14px 20px 20px; gap: 10px; }
 
-  /* Primary buttons — stacked full-width on mobile */
   .footer-primary-btns         { flex-direction: column; gap: 8px; }
   .footer-primary-btns .file-btn { width: 100%; justify-content: center; white-space: normal; text-align: center; }
   .btn-story, .btn-pm-docs, .btn-portal { font-size: 12px; }
 
-  /* Asset buttons — wrap naturally */
   .footer-asset-btns { flex-wrap: wrap; gap: 6px; }
 
-  /* PM Roadmap — scrollable on mobile so arrows never orphan */
   .roadmap-step { font-size: 10.5px; padding: 4px 10px; }
   .roadmap-flow {
     flex-wrap: nowrap;
@@ -1294,54 +1342,42 @@ a  { text-decoration: none; }
   }
   .roadmap-flow::-webkit-scrollbar { display: none; }
 
-  /* Contact */
   .contact-links { flex-direction: column; align-items: stretch; gap: 10px; }
   .contact-btn   { justify-content: center; }
   .contact-cta   { font-size: 20px; margin-top: 0; }
 }
 
 @media (max-width: 480px) {
-  /* Container */
   .container { padding: 0 16px; }
 
-  /* Hero */
   .hero       { padding: 70px 16px 50px; }
   .hero-label { font-size: 9.5px; letter-spacing: 0.04em; padding: 5px 12px; }
   .hero-name  { font-size: 30px; }
   .hero-tagline { font-size: 15px; }
   .hero-avatar-circle { width: 64px; height: 64px; font-size: 21px; }
 
-  /* About */
   .about-text p { font-size: 15px; line-height: 1.75; }
   .about-stats  { flex-direction: column; gap: 8px; }
   .stat-item    { min-width: unset; }
   .stat-number  { font-size: 26px; }
 
-  /* Builder tools */
   .builder-tools-visual { grid-template-columns: repeat(2, 1fr); gap: 10px; }
 
-  /* Tools */
   .tools-grid { grid-template-columns: 1fr; }
 
-  /* Education cards — reduce padding on small screens */
   .edu-card { padding: 22px 20px; }
 
-  /* Projects */
   .card-body   { padding: 16px 16px 12px; }
   .card-footer { padding: 12px 16px 18px; gap: 8px; }
   .card-title  { font-size: 16px; }
   .file-btn    { font-size: 11px; padding: 6px 12px; }
 
-  /* 4-step methodology — 2×2 wrap on small screens */
   .methodology-steps { flex-wrap: wrap; gap: 10px 6px; }
   .mstep-sep { display: none; }
 
-  /* Section padding */
   .section { padding: 48px 0; }
 
-  /* Section title */
   .section-title { font-size: 22px; margin-bottom: 26px; }
 
-  /* Contact */
   .contact-cta { font-size: 18px; }
 }
