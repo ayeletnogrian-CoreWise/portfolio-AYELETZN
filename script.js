@@ -16,7 +16,7 @@ const translations = {
     'nav-contact':   'Contact',
 
     /* hero */
-    'hero-label': 'Learning, Knowledge & People Operations Projects',
+    'hero-label': 'Organizational Projects, Learning & People Operations',
     'hero-cta':   'View My Projects',
 
     /* about */
@@ -75,6 +75,9 @@ const translations = {
     'skill-lim':      'Learning Impact Measurement',
     'skill-excel':    'Excel Reporting',
 
+    /* experience */
+    'section-experience': 'Where I Have Already Created Impact',
+
     /* tools */
     'section-tools':  'Tools & Platforms',
     'tool-ppt-name':  'PowerPoint',
@@ -96,38 +99,39 @@ const translations = {
 
     /* projects section */
     'section-projects': 'Portfolio Projects',
-    'projects-note':    'Four end-to-end concept portfolio projects demonstrating how academic research, organizational diagnosis and practical execution can become usable HR, L&D, Knowledge Management and People Operations solutions.',
+    'projects-note':    'Four applied concept projects demonstrating how I identify organizational challenges, design practical solutions, manage stakeholders, and build implementation plans with defined success metrics — across L&D, People Operations, onboarding, knowledge management, and change enablement.',
+    'kpi-pilot-label':  'Target KPIs',
 
     /* project 04 (displayed first) */
     'p04-category': 'PM | Global HR | People Operations',
     'p04-title':    'Global Communication Infrastructure & Enablement',
-    'p04-kpi1':     '-28% conflict resolution time',
-    'p04-kpi2':     '+45% manager confidence',
-    'p04-kpi3':     'CLEAR Model',
+    'p04-kpi1':     'Resolution Time',
+    'p04-kpi2':     'Manager Confidence',
+    'p04-kpi3':     'Tool Adoption',
     'p04-value':    'Reduces friction in global teams by giving managers a clear communication framework, team agreements and measurement tools.',
 
     /* project 01 (displayed second) */
     'p01-category': 'PM | AI Implementation | Change Management',
     'p01-title':    'AI Implementation & Operational Adoption',
-    'p01-kpi1':     '86% completion rate',
-    'p01-kpi2':     'Confidence 2.4 → 4.1',
-    'p01-kpi3':     '+68% weekly usage',
+    'p01-kpi1':     'Completion Rate',
+    'p01-kpi2':     'User Confidence',
+    'p01-kpi3':     'Weekly AI Usage',
     'p01-value':    'Helps organizations move from scattered AI curiosity to structured, responsible and measurable adoption.',
 
     /* project 02 (displayed third) */
     'p02-category': 'PM | People Operations | HR',
     'p02-title':    'CSM Readiness & Time-to-Productivity Project',
-    'p02-kpi1':     '91% completion rate',
-    'p02-kpi2':     '-32% repeat questions',
-    'p02-kpi3':     'Reduced ramp-up time',
+    'p02-kpi1':     'Ramp-up Time',
+    'p02-kpi2':     'Completion Rate',
+    'p02-kpi3':     'Repeat Questions',
     'p02-value':    'Shortens onboarding ramp-up by creating one structured source of truth for new CSMs and their managers.',
 
     /* project 03 (displayed fourth) */
     'p03-category': 'PM | Transformation | Change Management',
     'p03-title':    'Strategic Transformation Enablement & Execution',
-    'p03-kpi1':     'Clarity 2.9 → 4.2',
-    'p03-kpi2':     'Confidence 3.0 → 4.3',
-    'p03-kpi3':     '5-week program',
+    'p03-kpi1':     'Change Clarity',
+    'p03-kpi2':     'Manager Confidence',
+    'p03-kpi3':     'Adoption Readiness',
     'p03-value':    'Bridges the gap between executive strategy and employee behavior through role-based enablement and manager tools.',
 
     /* shared card labels */
@@ -170,7 +174,7 @@ const translations = {
     'contact-linkedin-label': 'LinkedIn Profile',
 
     /* footer */
-    'footer-text': '© 2026 Ayelet Nogrian · Learning, Knowledge & People Operations',
+    'footer-text': '© 2026 Ayelet Nogrian · HR Projects · People Operations · Learning & Development',
   },
 
   /* ==================== HEBREW ==================== */
@@ -243,6 +247,9 @@ const translations = {
     'skill-lim':      'מדידת אימפקט למידה',
     'skill-excel':    'דיווח ב-Excel',
 
+    /* experience */
+    'section-experience': 'ניסיון יישומי והישגים מהשטח',
+
     /* tools */
     'section-tools':  'כלים ופלטפורמות',
     'tool-ppt-name':  'PowerPoint',
@@ -263,39 +270,40 @@ const translations = {
     'tool-gh-desc':   'אתר תיק עבודות, פורטלים דיגיטליים, תיעוד מובנה והצגת פרויקטים.',
 
     /* projects section */
-    'section-projects': 'פרויקטים',
-    'projects-note':    'ארבעה פרויקטי קונספט מקצה לקצה המדגימים כיצד מחקר אקדמי, אבחון ארגוני וביצוע פרקטי יכולים להפוך לפתרונות שימושיים בעולמות HR, L&D, ניהול ידע ו-People Operations.',
+    'section-projects': 'פרויקטים נבחרים',
+    'projects-note':    'ארבעה מקרי בוחן קונספטואליים שפיתחתי על בסיס מחקר אקדמי וניסיון מקצועי. כל פרויקט מדגים כיצד אני מאבחנת צורך ארגוני, מתכננת פתרון ישים, בונה תוצרים דיגיטליים ומגדירה מסגרת מדידה לפיילוט.',
+    'kpi-pilot-label':  'מדדי פיילוט',
 
     /* project 04 (displayed first) */
     'p04-category': 'PM | HR גלובלי | People Operations',
     'p04-title':    'תשתית תקשורת גלובלית ופתרון קונפליקטים',
-    'p04-kpi1':     'צמצום 28% בזמן פתרון',
-    'p04-kpi2':     'עלייה 45% בביטחון מנהלים',
-    'p04-kpi3':     'מודל CLEAR',
+    'p04-kpi1':     'זמן פתרון קונפליקטים',
+    'p04-kpi2':     'ביטחון מנהלים',
+    'p04-kpi3':     'אימוץ כלים',
     'p04-value':    'מצמצם חיכוך בצוותים גלובליים באמצעות מסגרת תקשורת ברורה, הסכמי עבודה צוותיים וכלי מדידה למנהלים.',
 
     /* project 01 (displayed second) */
     'p01-category': 'PM | הטמעת AI | ניהול שינוי',
     'p01-title':    'ניהול הטמעה ואימוץ תפעולי של AI',
-    'p01-kpi1':     '86% השלמה',
-    'p01-kpi2':     'ביטחון 2.4 → 4.1',
-    'p01-kpi3':     'צמיחה 68% בשימוש שבועי',
+    'p01-kpi1':     'שיעור השלמה',
+    'p01-kpi2':     'ביטחון משתמשים',
+    'p01-kpi3':     'שימוש שבועי ב־AI',
     'p01-value':    'מסייע לארגונים לעבור מסקרנות מפוזרת סביב AI לאימוץ מובנה, אחראי ומדיד.',
 
     /* project 02 (displayed third) */
     'p02-category': 'PM | People Operations | HR',
     'p02-title':    'פרויקט מוכנות עובדים וקיצור זמן הכשרה CSM',
-    'p02-kpi1':     '91% השלמה',
-    'p02-kpi2':     'צמצום 32% שאלות חוזרות',
-    'p02-kpi3':     'קיצור זמן Ramp-up',
+    'p02-kpi1':     'זמן כניסה לתפקיד',
+    'p02-kpi2':     'שיעור השלמה',
+    'p02-kpi3':     'שאלות חוזרות',
     'p02-value':    'מקצר את זמן הקליטה באמצעות מקור אמת אחד וברור לעובדי CSM חדשים ולמנהלים שלהם.',
 
     /* project 03 (displayed fourth) */
     'p03-category': 'PM | טרנספורמציה | ניהול שינוי',
     'p03-title':    'הוצאה לפועל של טרנספורמציה אסטרטגית',
-    'p03-kpi1':     'בהירות 2.9 → 4.2',
-    'p03-kpi2':     'ביטחון 3.0 → 4.3',
-    'p03-kpi3':     'תוכנית 5 שבועות',
+    'p03-kpi1':     'בהירות השינוי',
+    'p03-kpi2':     'ביטחון מנהלים',
+    'p03-kpi3':     'מוכנות לאימוץ',
     'p03-value':    'מגשר בין אסטרטגיית הנהלה לבין שינוי התנהגותי בשטח באמצעות Enablement לפי תפקידים וכלים למנהלים.',
 
     /* shared card labels */
